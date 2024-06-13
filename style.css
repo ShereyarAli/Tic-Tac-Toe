@@ -1,0 +1,94 @@
+body{
+  font-family: "Boogaloo";
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color:#FFA32A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.cell-Container{  
+  display: flex;
+  flex-direction: row;
+} 
+
+.cell{
+  font-size: 50px;
+  text-align: center;
+  color: rgb(255, 9, 9);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 100px;
+  height: 58px;
+}
+.cell:hover{
+  cursor: pointer;
+  background-color: rgb(253, 219, 196);
+  transition: 0.3s;
+}
+.choices{
+  height: 60px;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+    
+}
+.btn, .btn-score{
+  color: rgb(238, 231, 231);
+  padding-block: 12px;
+  padding-inline: 30px;
+  border: none;
+  border-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: #1a1814;
+  
+}
+.btn:hover{
+  font-size: 20px;
+  border: 1.5px solid rgb(255, 13, 13);
+  cursor:pointer;  
+  transition: 0.3s;
+}
+.btn-score{
+  margin-bottom: 5px;
+}
+.btn-score:hover{
+  background-color: rgb(255, 37, 37);
+  padding-inline: 35px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+p{
+  font-size: 25px;
+}
+
+.restart{
+  color: rgb(238, 231, 231);
+  padding-block: 12px;
+  padding-inline: 30px;
+  margin-top: 10px;
+  border: none;
+  border-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: #1a1814;
+}
+.restart:hover{
+  border: 1.5px solid rgb(255, 13, 13);
+  font-size: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.score{
+  font-size: 25px;
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}

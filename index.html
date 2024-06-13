@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat:wght@400;500;600&family=Viga&display=swap" rel="stylesheet">
+    <body>
+        <div class="container">
+          <button class="btn-score js-reset-score">Reset Score</button>
+          <div class="score js-score">
+            <div class="js-player-score">Player:0</div>
+            <div class="js-comp-score">Comp:0</div>
+          </div>
+          <p>Select a choice:</p>
+          <div class="choices">
+            
+            <button class="js-x-btn btn">X</button>
+            <button class="js-o-btn btn">O</button>
+          </div>
+          
+          <div class="cell-Container">
+            <div class="cell" id="cell1"></div>
+            <div class="cell" id="cell2"></div>
+            <div class="cell" id="cell3"></div>
+          </div>
+          <div class="cell-Container">
+            <div class="cell" id="cell4"></div>
+            <div class="cell" id="cell5"></div>
+            <div class="cell" id="cell6"></div>
+          </div>
+          <div class="cell-Container">
+            <div class="cell" id="cell7"></div>
+            <div class="cell" id="cell8"></div>
+            <div class="cell" id="cell9"></div>
+          </div>
+          <button class="js-restart restart">
+            Retstart
+          </button>
+        </div>
+      <script type="module" src="script.js"></script>
+    </body>
+  </head>
+</html>
